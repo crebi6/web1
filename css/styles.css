@@ -499,17 +499,7 @@ footer {
     }
 }
 
-/* DARK MODE */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --primary-color: #121212;
-        --secondary-color: #bb86fc;
-        --accent-color: #03dac6;
-        --text-color: #e0e0e0;
-        --light-text: #121212;
-        --background-color: #1e1e1e;
-        --card-background: #2c2c2c;
-    }
+
 
     .navbar {
         background-color: var(--primary-color);
